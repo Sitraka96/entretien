@@ -1,0 +1,21 @@
+@import url(./photo.css);
+@import url(./../inscription/new.css);
+
+body {
+  margin: 0;
+}
+
+input[name^="list_dossiers"],
+input[name^="list_dossiers"] + label::before {
+  transition-duration: 250ms;
+}
+
+input[name^="list_dossiers"]:checked + label::before {
+  color: green;
+  content: "Validé";
+}
+
+input[name^="list_dossiers"]:not(:checked) + label::before {
+  color: red;
+  content: "Non validé";
+}

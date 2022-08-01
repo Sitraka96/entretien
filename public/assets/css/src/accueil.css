@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    border-bottom:5px solid #727138;
+    background-color:#cfc867;
+    margin-top: 48px;
+}
+#home h1{
+    font-family: 'Montserrat';
+    color:#fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 50px;
+    border-bottom:2px solid #fff;
+}
+#home h4{
+    padding: 14px 0;
+    color:#fff;
+    /* border-bottom:2px solid #fff; */
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-bottom: 8px;
+}
+
+#logo{
+    height: 200px;
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    box-shadow: 0 0 15px #cac57a;
+    /* box-shadow: 0 0 15px #119ea8; */
+    /* cursor: pointer; */
+    text-decoration: none;
+    font-weight: 500;
+    width: 250px;
+    height: 350px;
+    padding:0 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin:20px;
+    font-weight: 500;
+    transition: color background-color .6s;
+}
+.menu-item:hover{
+    text-decoration: none;
+    background-color: #cfc867;
+}
+.menu-item:hover > span{
+    color:white;
+}
+.menu-item:hover > .cimg{
+    color:#cfc867;
+    background-color:white;
+}
+
+.menu-item .cimg{
+    color:white;
+    background-color: #cfc867;
+    height: 150px;
+    width: 150px;
+    padding:20px;
+    margin-left:30px;
+    border-radius: 50%;
+    transition: background-color .6s;
+}
+.menu-item svg{
+    margin-left:18px;
+    margin-top:20px;
+    height: 70%;
+    width: 70%;
+}
+
+.menu-item span{
+    color:#cfc867;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    transition: color .4s;
+}
+
+.menu-item:first-child{
+    margin-left:0;
+}
+

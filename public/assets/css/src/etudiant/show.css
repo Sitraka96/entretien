@@ -1,0 +1,48 @@
+/* // Extra small screen / phone
+xs: 0,
+// Small screen / phone
+sm: 576px,
+// Medium screen / tablet
+md: 768px,
+// Large screen / desktop
+lg: 992px,
+// Extra large screen / wide desktop
+xl: 1200px */
+@import url(./../cards.css);
+
+body {
+  margin: 0;
+}
+
+.avatar {
+  width: 175px;
+  height: 175px;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+@media (min-width: 992px) {
+  .position-lg-fixed {
+    position: fixed;
+  }
+}
+
+@media (min-width: 1200px) {
+  .position-xl-fixed {
+    position: fixed;
+  }
+}

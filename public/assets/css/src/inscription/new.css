@@ -1,0 +1,45 @@
+@import url(./../etudiant/photo.css);
+
+body {
+  position: relative;
+  overflow-y: scroll;
+}
+
+#main-menu {
+  position: fixed;
+}
+
+#scroll-menu-nav {
+  z-index: 1;
+}
+
+.form-group {
+  position: relative;
+}
+
+@keyframes linearGradientMove {
+  100% {
+    background-position: 4px 0, -4px 100%, 0 -4px, 100% 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  #scroll-menu-nav {
+    z-index: 1025;
+    top: 0;
+    width: 100%;
+  }
+
+  #scroll-menu-nav > nav .nav-link {
+    display: none;
+  }
+
+  #scroll-menu-nav > nav .nav-link.active {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+    margin: 0 auto 0 0;
+    padding: 0 0 0 1rem;
+  }
+}

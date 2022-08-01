@@ -1,0 +1,16 @@
+{
+  "name": "esmia/gr",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/",
+      "Test\\App\\": "tests"
+    }
+  },
+  "require": {
+    "setasign/fpdf": "1.8.1",
+    "swiftmailer/swiftmailer": "^6.2",
+    "twig/twig": ">=2.11",
+    "naneau/php-obfuscator": "^0.0.5",
+    "phpunit/phpunit": "*"
+  }
+}

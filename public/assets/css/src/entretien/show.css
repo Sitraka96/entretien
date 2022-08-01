@@ -1,0 +1,5 @@
+@import url("ticket.css");
+
+.view-entretien label {
+  font-weight: bolder;
+}

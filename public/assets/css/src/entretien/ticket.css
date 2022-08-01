@@ -1,0 +1,14 @@
+/* #ticket-section {
+  display: none;
+} */
+
+#ticket-section a.btn-link,
+#ticket-section a.btn-link:hover {
+  text-decoration: none;
+}
+
+@media print {
+  #ticket-section {
+    display: block;
+  }
+}

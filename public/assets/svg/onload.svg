@@ -1,0 +1,29 @@
+<svg width="50" height="50" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+    <style type="text/css">
+    .st0{fill:#e2e2e2;}
+    .st1{fill:white;}
+    </style>
+    <g id="XMLID_1_">
+    <path id="XMLID_20_" class="st0" d="M75,25c27.6,0,50,22.4,50,50s-22.4,50-50,50s-50-22.4-50-50S47.4,25,75,25 M75,3
+        C35.2,3,3,35.2,3,75s32.2,72,72,72s72-32.2,72-72S114.8,3,75,3L75,3z"/>
+    </g>
+    <circle id="XMLID_2_" class="st1" cx="74.9" cy="13.3" r="7.4">
+        <animateTransform attributeName="transform" begin="0s" dur="0.95s" type="rotate" from="0 74.9 74.9" to="360 74.9 74.9" repeatCount="indefinite"/>
+    </circle>
+    <circle id="XMLID_4_" class="st1" cx="130.6" cy="101.6" r="7.4">
+        <animateTransform attributeName="transform" begin="0s" dur="1.45s" type="rotate" from="0 74.9 74.9" to="360 74.9 74.9" repeatCount="indefinite"/>
+    </circle>
+    <circle id="XMLID_5_" class="st1" cx="19.2" cy="101.6" r="7.4">
+        <animateTransform attributeName="transform" begin="0s" dur="1.4s" type="rotate" from="0 74.9 74.9" to="360 74.9 74.9" repeatCount="indefinite"/>
+    </circle>
+    <circle id="XMLID_7_" class="st1" cx="128.3" cy="44.9" r="7.4">
+        <animateTransform attributeName="transform" begin="0s" dur="1.25s" type="rotate" from="0 74.9 74.9" to="360 74.9 74.9" repeatCount="indefinite"/>
+    </circle>
+    <circle id="XMLID_6_" class="st1" cx="74.9" cy="136.8" r="7.4">
+        <animateTransform attributeName="transform" begin="0s" dur="1.1s" type="rotate" from="0 74.9 74.9" to="360 74.9 74.9" repeatCount="indefinite"/>
+    </circle>
+    <circle id="XMLID_3_" class="st1" cx="21" cy="45.4" r="7.4">
+        <animateTransform attributeName="transform" begin="0s" dur="1s" type="rotate" from="0 74.9 74.9" to="360 74.9 74.9" repeatCount="indefinite"/>
+    </circle>
+</svg>

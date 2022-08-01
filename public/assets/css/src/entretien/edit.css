@@ -1,0 +1,33 @@
+@import "./../bs-stepper.min.css";
+
+.vertical .content.fade.dstepper-none {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  #entretien-form .bs-stepper-header,
+  #entretien-form .actions {
+    z-index: 1025;
+    position: fixed;
+    left: 0;
+    width: 100%;
+  }
+
+  #entretien-form .bs-stepper-header {
+    top: 0;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  #entretien-form .bs-stepper-content {
+    padding: 5rem 0;
+  }
+
+  #entretien-form .actions {
+    bottom: 0;
+    border-top: 1px solid lightgrey;
+  }
+
+  #entretien-form .floating-btn {
+    bottom: 6rem;
+  }
+}

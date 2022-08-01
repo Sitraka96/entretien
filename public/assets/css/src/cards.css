@@ -1,0 +1,118 @@
+/* // Extra small screen / phone
+xs: 0,
+// Small screen / phone
+sm: 576px,
+// Medium screen / tablet
+md: 768px,
+// Large screen / desktop
+lg: 992px,
+// Extra large screen / wide desktop
+xl: 1200px */
+
+.flag-card {
+  /* border: 1px solid red; */
+  position: relative;
+  display: flex;
+
+  margin: 0 0 4rem 0;
+}
+
+.flag-card > .flag-card-header {
+  border: 1px solid;
+}
+
+.flag-card > .flag-card-header > .flag-card-title {
+  writing-mode: initial;
+  word-break: break-word;
+
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0;
+
+  width: 75px;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.flag-card > .flag-card-body {
+  /* border: 1px solid blue; */
+  position: relative;
+  flex-grow: 1;
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid;
+}
+
+.flag-card > .flag-card-body::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: unset;
+  right: -10px;
+  width: 50px;
+  height: 50px;
+  border-top: 1px solid;
+  border-left: none;
+  border-right: 1px solid;
+}
+
+.flag-card.flag-card-left {
+  border-left: 5px solid;
+}
+
+.flag-card.flag-right {
+  flex-direction: row-reverse;
+  border-right: 5px solid;
+}
+
+.flag-card.flag-right > .flag-card-body::before {
+  left: -10px;
+  right: unset;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: none;
+}
+
+.flag-card.flag-card-top {
+  flex-direction: column;
+  border-top: 5px solid;
+}
+
+.flag-card.flag-card-top > .flag-card-header > .flag-card-title {
+  width: initial;
+  text-align: left;
+}
+
+.flag-card.flag-card-top > .flag-card-body {
+  border-bottom: none;
+  border-left: 1px solid;
+}
+
+.flag-card.flag-card-top > .flag-card-body::before {
+  top: unset;
+  left: unset;
+  bottom: -10px;
+  right: -10px;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+}
+
+@media (max-width: 576px) {
+  .flag-card > .flag-card-header > .flag-card-title {
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    width: 25px;
+  }
+
+  .flag-card > .flag-card-body::before {
+    top: -10px;
+    right: -10px;
+  }
+
+  .flag-card.flag-right > .flag-card-body::before {
+    left: -10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+}

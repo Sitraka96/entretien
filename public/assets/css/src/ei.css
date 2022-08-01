@@ -1,0 +1,96 @@
+@import "dd.css";
+#cei {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 0 6px;
+  background-color: #ececec;
+}
+.ei {
+  width: 314px;
+  height: 170px;
+  margin: 10px;
+  background-color: white;
+}
+.btn-view {
+  border-radius: 10px 0 0 0;
+}
+.eii {
+  position: absolute;
+  top: 27px;
+  left: 8px;
+  z-index: 1;
+  height: 120px;
+  width: 90%;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px solid #e7e7e7;
+  background-color: #ecececb6;
+}
+.eigc {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.txt-age {
+  font-size: 0.9rem;
+}
+.eigf {
+  position: relative;
+  top: 118px;
+  padding: 1px 0;
+}
+.cnp {
+  line-height: 1.3rem;
+  font-size: 0.94rem;
+}
+.cf {
+  line-height: 0.9rem;
+  font-size: 0.8rem;
+}
+.cne {
+  line-height: 1.2rem;
+  font-size: 1rem;
+  margin-top: 1px;
+}
+.fc {
+  display: flex;
+  flex-direction: column;
+}
+.fr {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 414px) {
+  #cei {
+    justify-content: center;
+  }
+  .ei {
+    margin: 10px 8px;
+    width: 100vh;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 677px) {
+  #cei {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+a svg {
+  width: 18px;
+  height: 18px;
+}
+div svg.mail {
+  width: 16px;
+  height: 16px;
+  color: #222;
+  vertical-align: middle;
+}
+div svg.fb {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  margin-right: 2px;
+  color: #222;
+  vertical-align: middle;
+}

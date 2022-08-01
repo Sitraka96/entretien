@@ -1,0 +1,28 @@
+#photo-preview {
+  min-width: 175px;
+  min-height: 175px;
+  max-width: 175px;
+  max-height: 175px;
+
+  border: none;
+  cursor: pointer;
+
+  transition-duration: 150ms;
+
+  background: linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
+    linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
+    linear-gradient(0deg, #333 50%, transparent 0) repeat-y,
+    linear-gradient(0deg, #333 50%, transparent 0) repeat-y;
+
+  background-size: 4px 1px, 4px 1px, 1px 4px, 1px 4px;
+  background-position: 0 0, 0 100%, 0 0, 100% 0;
+}
+
+#photo-preview:hover {
+  animation: linearGradientMove 0.3s infinite linear;
+}
+
+#photo-preview:focus,
+#photo-preview:active {
+  transform: scale3d(0.97, 0.97, 0.97);
+}

@@ -1,0 +1,10 @@
+/.vscode
+/.idea
+/node_modules
+/storage/*.key
+/vendor
+.env
+*.log
+*.zip
+*.rar
+*.lock

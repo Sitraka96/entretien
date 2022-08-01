@@ -1,0 +1,1 @@
+<h1>InscriptionView/index.php</h1>
