@@ -189,7 +189,7 @@
                                     <td><?= $entretien->getNiv()->nom_niv ?></td>
                                     <td><?= $entretien->getDateEntretien()->format("d M Y à H:i") ?></td>
                                     <td>
-                                        <a href="/Entretien/View/<?= $entretien->idENTR ?>" class="btn-link bi ">Aperçu</a>
+                                        <a href="/Entretien/Show/<?= $entretien->idENTR ?>" class="btn-link bi ">Aperçu</a>
                                     </td>
                                     <td>
                                         <a href="/Entretien/Edit/<?= $entretien->idENTR ?>" class="btn-link bi bi-pen"></a>
